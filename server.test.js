@@ -17,7 +17,7 @@ describe("Backend API Tests", () => {
 
     expect(response.status).toBe(200);
     expect(response.body).toEqual({
-      name: "boopathi",
+      name: "boopathiv",
       age: 21,
     });
   });
